@@ -1,0 +1,59 @@
+@media (max-width: 1108px){
+  .wrapper {
+    width: 90%;
+  }
+  #social {position: absolute;
+  width: 82px;
+  right: 4px;
+  }
+}
+
+@media (min-width: 900px){
+  body {
+    font-size: 85%;
+  }
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
+  #logo h2 {
+    font-size: 2.2em;
+  }
+  #social {
+  position: relative;
+  top: 72px;
+  }
+  col-3 p {
+  column-count: 2;
+  }
+}
+
+@media (min-width: 750px) {
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  .col-3 p {
+    column-count: 1;
+  }
+  .col-1 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .col-2 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .col-3 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .border-right {
+    border: 0;
+  }
+  #details div {
+    height: auto;
+  }
+}
