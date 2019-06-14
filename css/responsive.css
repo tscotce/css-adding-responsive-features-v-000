@@ -2,4 +2,7 @@
   .wrapper {
     width: 90%;
   }
+  #social {position: absolute;
+  auto-width: 82px, 4px;
+  }
 }
